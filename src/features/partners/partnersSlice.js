@@ -13,7 +13,7 @@ const partnersSlice = createSlice({
 export const partnersReducer = partnersSlice.reducer;
 
 export const selectAllPartners = (state) => {
-    return state.partners.partnersArray;;
+    return state.partners.partnersArray;
 };
 
 export const selectFeaturedPartner = (state) => {
